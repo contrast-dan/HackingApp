@@ -7,7 +7,7 @@ services:
       - mysql
 
   mysql:
-    platform: linux/arm64/v8
+    platform: linux/x86_64
     image: mysql
     environment:
       - MYSQL_ROOT_PASSWORD=root
